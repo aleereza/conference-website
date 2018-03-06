@@ -23,9 +23,11 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
-        </Link>
+          MMSP 2018
+        </Link>  
       </h1>
+      <h3>IEEE 20th International Workshop on Multimedia Signal Processing
+      </h3>
     </div>
   </div>
 )

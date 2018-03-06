@@ -3,18 +3,20 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
-import './index.css'
+import mainNav from '../components/Nav'
+// import './index.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="MMSP 2018"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
     <Header />
+    <mainNav />
     <div
       style={{
         margin: '0 auto',
