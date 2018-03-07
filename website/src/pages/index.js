@@ -22,7 +22,6 @@ const IndexPage = () => (
       <li>Signal processing and learning for big biological /biomedical data</li>
       <li>Multimedia systems and emerging applications</li>
     </ul>
-    <Link to="/page-2/">Go to page 2</Link>
   </div>
 )
 

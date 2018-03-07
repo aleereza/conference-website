@@ -1,0 +1,78 @@
+.listlink {
+  display: block;
+  align-items: right;
+}
+
+.link {
+  text-decoration: none;
+  color: #818181;
+  transition: 0.3s;
+}
+
+.link:hover {
+    color: black;
+
+}
+
+
+.navlist {
+  list-style: none;
+  float: right;
+}
+
+.dates {
+  align-items: center;
+}
+
+/* .dates .addeventatc {
+  color: red;
+  background-color: red;
+} */
+
+.image_container {
+  background-image: url("../images/vancouver1.jpg");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* max-width: 2000px; /* Maximum width */
+  /* margin: 0 auto; /* Center it */
+  /* height: 100%; */
+}
+
+.image_content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */
+}
+
+/* .user:last-child {
+  margin-bottom: 0;
+}
+
+.avatar {
+  flex: 0 0 96px;
+  width: 96px;
+  height: 96px;
+  margin: 0;
+}
+
+.description {
+  flex: 1;
+  margin-left: 18px;
+  padding: 12px;
+}
+
+.username {
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.excerpt {
+  margin: 0;
+} */

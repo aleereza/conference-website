@@ -2,37 +2,51 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import MainNav from '../components/Nav'
-import Header from '../components/Header'
+import NavList from '../components/Nav/NavList'
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
+import Dates from '../components/Dates/Dates'
+
+import styles from "./layouts.module.css"
 // import mainNav from '../components/Nav'
 // import './index.css'
 
-const TemplateWrapper = ({ children }) => (
+const MainLayout = ({ children }) => (
   <div>
     <Helmet
       title="MMSP 2018"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'IEEE 20th International Workshop on Multimedia Signal Processing' },
+        { name: 'keywords', content: 'IEEE, MMSP, MMSP 2018, Signal Processing'},
+      ]}
+      script={[
+        { type: "text/javascript", src:"https://addevent.com/libs/atc/1.6.1/atc.min.js" },
       ]}
     />
-    <Header />
-    <MainNav />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
+    <div className={styles.header_container}>
+      <Header />
     </div>
+    <div>
+      <div className={styles.left_container}>
+        <NavList />
+      </div>
+      <div className={styles.center_container}>
+        {children()}
+      </div>
+      <div className={styles.right_container}>
+        <Dates />
+      </div>
+    </div>
+
+    <footer className = {styles.footer_container}>
+    <Footer/>
+    </footer>
+
   </div>
 )
 
-TemplateWrapper.propTypes = {
+MainLayout.propTypes = {
   children: PropTypes.func,
 }
 
-export default TemplateWrapper
+export default MainLayout
