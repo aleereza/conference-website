@@ -6,6 +6,8 @@ import NavList from '../components/Nav/NavList'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import Dates from '../components/Dates/Dates'
+import Box from '../components/Box'
+import Search from '../components/Search'
 
 import styles from "./layouts.module.css"
 // import mainNav from '../components/Nav'
@@ -26,20 +28,23 @@ const MainLayout = ({ children }) => (
     <div className={styles.header_container}>
       <Header />
     </div>
-    <div>
+    <div className={styles.main_container}>
       <div className={styles.left_container}>
-        <NavList />
+        <Search/>
+        <NavList/>
       </div>
       <div className={styles.center_container}>
         {children()}
       </div>
       <div className={styles.right_container}>
-        <Dates />
+        <Box title="Important Dates">
+          <Dates />
+        </Box>
       </div>
     </div>
 
     <footer className = {styles.footer_container}>
-    <Footer/>
+      <Footer/>
     </footer>
 
   </div>

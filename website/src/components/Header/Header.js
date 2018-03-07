@@ -9,19 +9,15 @@ import styles from "../components.module.css"
 const Header = () => (
   <div className={styles.image_container}>
     <div className={styles.image_content}>
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
+      <div className={styles.title_text_container}>
+        <Link to="/"  className={styles.title_text}>
+          <h1 className={styles.title_text}>
           MMSP 2018
+          </h1>
         </Link>
-      </h1>
-      <h3>IEEE 20th International Workshop on Multimedia Signal Processing
-      </h3>
+        <h3 className={styles.title_text}>IEEE 20th International Workshop on Multimedia Signal Processing
+        </h3>
+      </div>
     </div>
   </div>
 )
