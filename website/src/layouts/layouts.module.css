@@ -36,37 +36,13 @@
 .footer_container {
   /* display: inline-block; */
   clear: both;
+  display: block;
+  margin: 0;
   background-color: #696969;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .left_container {
     background-color: black;
   }
-}
-
-/* .user:last-child {
-  margin-bottom: 0;
-}
-
-.avatar {
-  flex: 0 0 96px;
-  width: 96px;
-  height: 96px;
-  margin: 0;
-}
-
-.description {
-  flex: 1;
-  margin-left: 18px;
-  padding: 12px;
-}
-
-.username {
-  margin: 0 0 12px 0;
-  padding: 0;
-}
-
-.excerpt {
-  margin: 0;
 } */

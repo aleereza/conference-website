@@ -11,7 +11,7 @@ import Search from '../components/Search'
 
 import styles from "./layouts.module.css"
 // import mainNav from '../components/Nav'
-// import './index.css'
+import './index.css'
 
 const MainLayout = ({ children }) => (
   <div>
@@ -37,9 +37,7 @@ const MainLayout = ({ children }) => (
         {children()}
       </div>
       <div className={styles.right_container}>
-        <Box title="Important Dates">
-          <Dates />
-        </Box>
+        <Dates />
       </div>
     </div>
 

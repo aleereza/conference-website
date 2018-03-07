@@ -7,30 +7,50 @@
 
 .link {
   text-decoration: none;
-  color: #818181;
-  transition: 0.3s;
 }
 
-.link:hover {
-    color: black;
-
-}
-
-
-.navlist {
+/*---------navlist--------*/
+.navlist, .search{
+  display: block;
   list-style: none;
-  float: right;
+  margin: 0;
+  width: 100%;
+  margin-bottom: .5rem
+  /* float: right; */
 }
 
 .navlist li{
-  border-style: solid;
-  border-width: 1px;
-  border-color: #A9A9A9;
-  border-radius: 5px;
+  border-bottom: 1px solid #A9A9A9;
+}
+
+.navlist li a{
+  color: #818181;
+}
+
+.navlist li a:hover{
+  color: black;
 }
 
 .dates {
   align-items: center;
+}
+
+/*---------footerlist--------*/
+.footerlist {
+  display: inline;
+}
+
+.footerlist li, h5{
+  margin: 0;
+  /* border-bottom: 1px solid #A9A9A9; */
+}
+
+.footerlist li a{
+  color: #818181;
+}
+
+.footerlist li a:hover{
+  color: #818181;
 }
 
 /* .dates .addeventatc {
@@ -46,8 +66,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /* max-width: 2000px; /* Maximum width */
-  /* margin: 0 auto; /* Center it */
+  max-width: 2000px; /* Maximum width */
+  margin: 0 auto; /* Center it
   /* height: 100%; */
 }
 
@@ -57,13 +77,17 @@
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
-  padding: 10px; /* Some padding */
+
 }
 
-.title_text_container {
+.title_text_container, .footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: .5rem; /* Some padding */
+  padding-bottom: 1rem;
+  padding-left: 2%; /* Some padding */
+  padding-right: 2%;
   max-width: 960px;
   /* padding: 10px; /* Some padding */
 }
@@ -76,12 +100,29 @@
 
 
 .box {
-  border-style: solid;
+  border-bottom: 1px solid #A9A9A9;
+  /* border-style: solid;
   border-width: 1px;
   border-color: #A9A9A9;
-  border-radius: 5px;
+  border-radius: 5px; */
   text-align: center;
 }
+
+.box h4 {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+/* .addeventatc {
+  border-bottom: 10px solid #A9A9A9;
+} */
+/* .footer {
+
+} */
+
+
+
+
 /* .user:last-child {
   margin-bottom: 0;
 }

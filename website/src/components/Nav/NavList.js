@@ -19,20 +19,22 @@ class NavList extends React.Component {
 
   render() {
     return (
-      <ul className={styles.navlist}>
-        <ListLink to="/">Home</ListLink>
-        <ListLink to="/call">Call for Papers</ListLink>
-        <ListLink to="/instructions">Instructions for Authors</ListLink>
-        <ListLink to="/registeration">Registration</ListLink>
-        <ListLink to="/keynote">Keynote Speakers</ListLink>
-        <ListLink to="/committee">Committee</ListLink>
-        <ListLink to="/sessions">Sessions</ListLink>
-        <ListLink to="/technical">Tecnical Program</ListLink>
-        <ListLink to="/accommodation">Accommodation</ListLink>
-        <ListLink to="/venue">Venue</ListLink>
-        <ListLink to="/sosial">Sosial Program</ListLink>
-        <ListLink to="/award">Award</ListLink>
-      </ul>
+      <nav>
+        <ul className={styles.navlist}>
+          <ListLink to="/">Home</ListLink>
+          <ListLink to="/call">Call for Papers</ListLink>
+          <ListLink to="/instructions">Instructions</ListLink>
+          <ListLink to="/registeration">Registration</ListLink>
+          <ListLink to="/keynote">Keynote Speakers</ListLink>
+          <ListLink to="/committee">Committee</ListLink>
+          <ListLink to="/sessions">Sessions</ListLink>
+          <ListLink to="/technical">Tecnical Program</ListLink>
+          <ListLink to="/accommodation">Accommodation</ListLink>
+          <ListLink to="/venue">Venue</ListLink>
+          <ListLink to="/sosial">Sosial Program</ListLink>
+          <ListLink to="/award">Award</ListLink>
+        </ul>
+      </nav>
     )
   }
 }
