@@ -113,17 +113,14 @@
   padding-bottom: 1rem;
 }
 
-/* .addeventatc {
-  border-bottom: 10px solid #A9A9A9;
-} */
-/* .footer {
+/*---------speaker--------*/
+.speaker {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 12px auto;
+}
 
-} */
-
-
-
-
-/* .user:last-child {
+.speaker:last-child {
   margin-bottom: 0;
 }
 
@@ -140,11 +137,11 @@
   padding: 12px;
 }
 
-.username {
+.speaker_name, .speaker_title {
   margin: 0 0 12px 0;
   padding: 0;
 }
 
-.excerpt {
+.speaker_desc {
   margin: 0;
-} */
+}
