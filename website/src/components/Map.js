@@ -3,10 +3,9 @@ import Link from 'gatsby-link'
 import styles from "./components.module.css"
 
 class Map extends React.Component {
-  constructor() {
-    super()
-    this.state = { count: 0 }
-  }
+  // constructor() {
+  //   super()
+  // }
   componentDidMount () {
     window.initMap = this.initMap;
     const script = document.createElement("script");
