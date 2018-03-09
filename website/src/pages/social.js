@@ -1,13 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const RegistrationPage = () => (
+const SocialPage = () => (
   <div>
-    <h3>Registration</h3>
+    <h3>Social Program</h3>
     <p>More info will be provided soon!
     </p>
     <Link to="/">Go back to the homepage</Link>
   </div>
 )
 
-export default RegistrationPage
+export default SocialPage

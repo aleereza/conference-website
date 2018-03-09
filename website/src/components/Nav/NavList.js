@@ -29,10 +29,10 @@ class NavList extends React.Component {
           <ListLink to="/committee">Committee</ListLink>
           <ListLink to="/sessions">Sessions</ListLink>
           <ListLink to="/technical">Tecnical Program</ListLink>
-          <ListLink to="/accommodation">Accommodation</ListLink>
+          <ListLink to="/accommodation">Travel and Accommodation</ListLink>
           <ListLink to="/venue">Venue</ListLink>
-          <ListLink to="/sosial">Sosial Program</ListLink>
-          <ListLink to="/award">Award</ListLink>
+          <ListLink to="/social">Social Program</ListLink>
+          <ListLink to="/awards">Awards</ListLink>
         </ul>
       </nav>
     )
