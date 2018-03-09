@@ -22,7 +22,7 @@ const MainLayout = ({ children }) => (
         { name: 'keywords', content: 'IEEE, MMSP, MMSP 2018, Signal Processing'},
       ]}
       script={[
-        { type: "text/javascript", src:"https://addevent.com/libs/atc/1.6.1/atc.min.js" },
+        { type: "text/javascript", src:"https://addevent.com/libs/atc/1.6.1/atc.min.js"},
       ]}
     />
     <div className={styles.header_container}>
@@ -30,7 +30,6 @@ const MainLayout = ({ children }) => (
     </div>
     <div className={styles.main_container}>
       <div className={styles.left_container}>
-        <Search/>
         <NavList/>
       </div>
       <div className={styles.center_container}>
@@ -53,3 +52,5 @@ MainLayout.propTypes = {
 }
 
 export default MainLayout
+
+// <Search/>
