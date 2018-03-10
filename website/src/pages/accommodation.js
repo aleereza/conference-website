@@ -1,8 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import FullSize from "../components/FullSize"
+import venue from "../images/venue.jpg"
+
 const AccommodationPage = () => (
   <div>
+    <FullSize src={venue}/>
     <h3>Vancouver Accessibility</h3>
     <h4>Arriving by Air</h4>
     <p>If you're arriving by air, you'll most likely be flying into Vancouver International Airport (YVR). Located just 25 minutes from downtown, YVR is consistently rated one of the best airports in North America. There are more than a dozen international flights in and out of YVR every day, with 22 bound for the United States.
