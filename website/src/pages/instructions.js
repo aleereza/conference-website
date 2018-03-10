@@ -4,16 +4,6 @@ import styles from "../components/components.module.css"
 
 const InstructionsPage = () => (
 <div>
-<h3>Presentation Instructions</h3>
-<p>Lecture presentations will be allocated in 20-minute time slots. In general, the authors should aim at using 17-18 minutes for their talk and should leave 2-3 minutes for questions. Laptop, LCD projector and laser pointer will be available in the room. In case anything else is required, please contact the General Chairs ahead of time.
-</p>
-<p>Poster presentations will be allocated in 80- or 100-minute sessions with all posters within the session being presented simultaneously. The maximal allowed poster size is A0 portrait orientation or A1 landscape orientation. Poster panels, pins, Blu Tack and sellotape will be provided. In case anything else is required, please contact the General Chairs.
-</p>
-<h3>IEEE SPS Travel Grants</h3>
-<p>IEEE SPS will provide a limited number of travel grants to MMSP attendees. Please check <a href="https://signalprocessingsociety.org/events/sps-travel-grants">SPS Travel Grants</a> for the detailed guidelines.
-</p>
-<p>The application process is explained on the <Link to="/registration" className={styles.link}>registration page</Link>.
-</p>
 <h3>Instructions for Authors</h3>
 <p>Please read the following instructions carefully. By submitting a manuscript to MMSP, the authors guarantee that the material is original and that it has not been published, and is not currently submitted for consideration, elsewhere.</p><p>Two types of papers will be considered for submission: regular and special session papers (full paper) and demo papers. <strong>Only accepted regular and special session (full) papers will be published on IEEE Xplore. </strong>All accepted papers will be included in the digital conference proceedings.
 </p>
@@ -70,6 +60,16 @@ const InstructionsPage = () => (
 <p>An online confirmation will be displayed and an email confirmation will be sent verifying your account setup.
 </p>
 <p>Previous users of PDF eXpress or IEEE PDF eXpress Plus need to follow the above steps, but should enter the same password that was used for previous conferences. Verify that your contact information is valid.</p><h4><strong>Contacting PDF eXpress Support</strong></h4><p>Access the <a href="http://www.pdf-express.org/plus" target="_blank" rel="noopener noreferrer">Publications Support Center</a> for IEEE PDF eXpress. If you do not find an answer in the Find Answers tab, go to the Ask A Question tab. Your question will be forwarded to IEEE PDF Support and answered within 3 business days.
+</p>
+<h3>Presentation Instructions</h3>
+<p>Lecture presentations will be allocated in 20-minute time slots. In general, the authors should aim at using 17-18 minutes for their talk and should leave 2-3 minutes for questions. Laptop, LCD projector and laser pointer will be available in the room. In case anything else is required, please contact the General Chairs ahead of time.
+</p>
+<p>Poster presentations will be allocated in 80- or 100-minute sessions with all posters within the session being presented simultaneously. The maximal allowed poster size is A0 portrait orientation or A1 landscape orientation. Poster panels, pins, Blu Tack and sellotape will be provided. In case anything else is required, please contact the General Chairs.
+</p>
+<h3>IEEE SPS Travel Grants</h3>
+<p>IEEE SPS will provide a limited number of travel grants to MMSP attendees. Please check <a href="https://signalprocessingsociety.org/events/sps-travel-grants">SPS Travel Grants</a> for the detailed guidelines.
+</p>
+<p>The application process is explained on the <Link to="/registration" className={styles.link}>registration page</Link>.
 </p>
 </div>
 )

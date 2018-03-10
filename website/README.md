@@ -1,13 +1,8 @@
-# gatsby-starter-default
-The default Gatsby starter
-
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+# TODO
+fix dead line link. add a page to show dead lines  
+add a google map to show hotels: https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch
+add link and discription for airbnb and sfu residential
+add SFU, UBC, IEEE logos
+remove footer links
+Add share button in footer to share on twitter, facebook or email
+review and apply Ivan's comments.

@@ -39,6 +39,9 @@ const CallPage = () => (
 </ul>
 <p>Prospective authors are invited to submit regular and special session papers (full paper, 4-6 pages) and demo papers (1 page). Manuscripts should be original and written in accordance with the standard IEEE 2-column paper template. Accepted full-length papers will be indexed on IEEE Xplore. Accepted abstracts will not be indexed in IEEE Xplore, however the demo papers and/or the presentations will be included in the IEEE SPS SigPort. All accepted papers will be included in the digital conference proceedings.
 </p>
+<h4>Paper Submission</h4>
+<p>Paper submission is handled via the CMT system. Please submit your paper at <a href="https://cmt3.research.microsoft.com/MMSP2018" rel="noopener noreferrer">cmt3.research.microsoft.com/MMSP2018</a>
+</p>
 </div>
 )
 

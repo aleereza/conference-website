@@ -6,30 +6,38 @@ class FullSize extends React.Component {
   constructor(props) {
     super()
     this.src = props.src
+    this.caption = props.caption
   }
-  // componentDidMount () {
-  //
-  // }
+  componentDidMount () {
+    // Get the modal
+    var modal = document.getElementById('Modal');
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('Img');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
 
-  // initMap() {
-  //     var segal = {lat: 49.284381, lng: -123.114910};
-  //     var map = new google.maps.Map(document.getElementById('map'), {
-  //       zoom: 15,
-  //       center: segal
-  //     });
-  //     var marker = new google.maps.Marker({
-  //       position: segal,
-  //       map: map
-  //     });
-  //   }
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+  }
+
   render() {
     return (
       <div>
-        <img id={"Img"} src={this.src}/>
-        <div id="Modal" className="modal">
+        <img id={"Img"} src={this.src} alt={this.caption}/>
+        <div id={"Modal"} className="modal">
           <span className="close">&times;</span>
           <img className="modal-content" id={"img01"}/>
-          <div id="caption"></div>
+          <div id={"caption"}></div>
         </div>
       </div>
     )
