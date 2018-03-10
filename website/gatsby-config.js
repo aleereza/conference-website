@@ -1,6 +1,6 @@
 module.exports = {
   // Note: it must *not* have a trailing slash.
-  pathPrefix: '/~mmsp2018/New',
+  pathPrefix: '/~mmsp2018',
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },

@@ -14,6 +14,7 @@ import styles from "./layouts.module.css"
 import './index.css'
 
 import IEEE from "../images/IEEE.png"
+import IEEE_sp from "../images/IEEE_sp.png"
 import SFU from "../images/SFU.png"
 import UBC from "../images/UBC.png"
 
@@ -36,9 +37,12 @@ const MainLayout = ({ children }) => (
       <div className={styles.left_container}>
         <NavList/>
         <Box title="Organizers">
-          <a href="https://signalprocessingsociety.org"><img src={IEEE} className={styles.content_image} alt="" /></a>
-          <a href="https://www.sfu.ca/"><img src={SFU} className={styles.content_image} alt="" /></a>
+
+
           <a href="https://www.ubc.ca/"><img src={UBC} className={styles.content_image} alt="" /></a>
+          <a href="https://www.sfu.ca/"><img src={SFU} className={styles.content_image} alt="" /></a>
+            <a href="https://signalprocessingsociety.org"><img src={IEEE} className={styles.content_image} alt="" /></a>
+            <a href="https://signalprocessingsociety.org"><img src={IEEE_sp} className={styles.content_image} alt="" /></a>
         </Box>
       </div>
       <div className={styles.center_container}>
