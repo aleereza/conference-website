@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import FullSize from "../components/FullSize"
-import venue from "../images/venue.jpg"
+import hotels from "../images/hotels.png"
 
 const AccommodationPage = () => (
   <div>
@@ -11,7 +11,7 @@ const AccommodationPage = () => (
     <p>Depending on where you live, and the reason for your visit, you will need to meet certain entry requirements. In some cases, if you plan to stay in Canada for a certain period of time, you will need a Temporary Resident Visa. <a href="http://www.cic.gc.ca/english/visit/visas.asp">Here</a> you can find out if you need a visa.
     </p>
     <h4>Hotels</h4>
-    <FullSize src={venue} caption="Hotels in downtown Vancouver"/>
+    <FullSize src={hotels} caption="Hotels in downtown Vancouver"/>
     <p  style={{ textAlign: "center" }}><small>(Click to enlarge)</small>
     </p>
     <p>Find nearby hotels on <a href="https://www.google.ca/maps/search/Hotels/@49.2876947,-123.1296626,15z/data=!3m1!4b1!4m11!2m10!3m6!1sHotels!2s500+Granville+St,+Vancouver,+BC+V6C+1W6!3s0x5486717897c2f3e3:0x4555f729c4de64f4!4m2!1d-123.1148388!2d49.2843101!5m2!5m1!1s2018-03-25">google map</a>.
