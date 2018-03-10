@@ -6,6 +6,22 @@ import venue from "../images/venue.jpg"
 
 const AccommodationPage = () => (
   <div>
+    <h3>Accommodation</h3>
+    <h4>Visa information</h4>
+    <p>Depending on where you live, and the reason for your visit, you will need to meet certain entry requirements. In some cases, if you plan to stay in Canada for a certain period of time, you will need a Temporary Resident Visa. <a href="http://www.cic.gc.ca/english/visit/visas.asp">Here</a> you can find out if you need a visa.
+    </p>
+    <h4>Hotels</h4>
+    <FullSize src={venue} caption="Hotels in downtown Vancouver"/>
+    <p  style={{ textAlign: "center" }}><small>(Click to enlarge)</small>
+    </p>
+    <p>Find nearby hotels on <a href="https://www.google.ca/maps/search/Hotels/@49.2876947,-123.1296626,15z/data=!3m1!4b1!4m11!2m10!3m6!1sHotels!2s500+Granville+St,+Vancouver,+BC+V6C+1W6!3s0x5486717897c2f3e3:0x4555f729c4de64f4!4m2!1d-123.1148388!2d49.2843101!5m2!5m1!1s2018-03-25">google map</a>.
+    </p>
+    <h4>SFU Private Residence Rooms</h4>
+    <p>Find more info about SFU Private Residence Rooms <a href="https://www.sfu.ca/stayhere/accommodations/single_room/overview.html">here</a>. It is approximately 45 minutes bus ride from this residence to the conference site at downtown.
+    </p>
+    <h4>Airbnb</h4>
+    <p>Find places to stay in Vancouver on <a href="https://www.airbnb.ca/s/Vancouver--Canada">Airbnb</a>.
+    </p>
     <h3>Vancouver Accessibility</h3>
     <h4>Arriving by Air</h4>
     <p>If you're arriving by air, you'll most likely be flying into Vancouver International Airport (YVR). Located just 25 minutes from downtown, YVR is consistently rated one of the best airports in North America. There are more than a dozen international flights in and out of YVR every day, with 22 bound for the United States.
@@ -29,14 +45,6 @@ const AccommodationPage = () => (
     <p>Travel across Canada on VIA Rail’s transcontinental service running from Vancouver to Toronto, via Jasper, three times per week, year-round. Or take in the best of BC and Alberta with a Rocky Mountaineer two-day rail tour, offered from April through October. If you’re heading to Vancouver from the U.S., consider the Amtrak Cascades route between Eugene, Oregon and Vancouver, via Portland and Seattle.
     </p>
     <p>Pacific Central Station is the terminus for both VIA Rail and Amtrak trains, and is located just east downtown Vancouver at Main and Terminal streets. Rocky Mountaineer trains operate out of their own facilities, with stations in East Vancouver (close to Pacific Central Station) and North Vancouver.
-    </p>
-    <h3>Accommodation</h3>
-    <h4>Hotels</h4>
-    <FullSize src={venue} caption="Hotels in downtown Vancouver"/>
-    <h4>SFU Private Residence Rooms</h4>
-    <h4>Airbnb</h4>
-    <h3>Entry Requirements for Canada</h3>
-    <p>Depending on where you live, and the reason for your visit, you will need to meet certain entry requirements. In some cases, if you plan to stay in Canada for a certain period of time, you will need a Temporary Resident Visa. <a href="http://www.cic.gc.ca/english/visit/visas.asp">Here</a> you can find out if you need a visa.
     </p>
   </div>
 )

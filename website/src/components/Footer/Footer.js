@@ -6,12 +6,14 @@ import FooterList from "./FooterList"
 
 const Footer = () => (
   <div className={styles.footer}>
-    <FooterList title="Community">
-      <ListLink to="/">Facebook</ListLink>
-      <ListLink to="/">Twitter</ListLink>
-      <ListLink to="/">youtube</ListLink>
-    </FooterList>
+
   </div>
 )
 
 export default Footer
+
+// <FooterList title="Community">
+//   <ListLink to="/">Facebook</ListLink>
+//   <ListLink to="/">Twitter</ListLink>
+//   <ListLink to="/">youtube</ListLink>
+// </FooterList>

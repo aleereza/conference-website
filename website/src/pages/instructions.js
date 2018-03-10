@@ -14,6 +14,8 @@ const InstructionsPage = () => (
 </p>
 <p>A <strong>full</strong> (non-student) registration <strong>MUST</strong> be made by one of the demo paper authors by June 30. Failure to register before this deadline will result in automatic withdrawal of your demo paper from the conference proceedings and program.
 </p>
+<p>Paper submission is handled via the CMT system. Please submit your paper at <a href="https://cmt3.research.microsoft.com/MMSP2018" rel="noopener noreferrer">cmt3.research.microsoft.com/MMSP2018</a>
+</p>
 <h3>Templates</h3>
 <p>All submissions must be in letter-sized PDF. All fonts and subsets must be embedded. Detailed examples about paper formatting are available in the LaTeX and Microsoft Word templates below. We strongly recommend that you use these templates, as they follow IEEE guidelines. When using these files, please double-check the paper size in your page setup to make sure you are using the letter-size paper layout (8.5 inch X 11 inch). The LaTeX environment files specify suitable margins, page layout, text, and a bibliography style.
 </p>

@@ -31,6 +31,8 @@ const MainLayout = ({ children }) => (
     <div className={styles.main_container}>
       <div className={styles.left_container}>
         <NavList/>
+        <Box title="Organizers">
+        </Box>
       </div>
       <div className={styles.center_container}>
         {children()}

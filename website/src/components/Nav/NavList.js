@@ -25,6 +25,7 @@ class NavList extends React.Component {
           <ListLink to="/call">Call for Papers</ListLink>
           <ListLink to="/submission">Paper Submission</ListLink>
           <ListLink to="/instructions">Instructions for Authors</ListLink>
+          <ListLink to="/dates">Deadline Dates</ListLink>
           <ListLink to="/registration">Registration</ListLink>
           <ListLink to="/keynote">Keynote Speakers</ListLink>
           <ListLink to="/committee">Committee</ListLink>

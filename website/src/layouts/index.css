@@ -39,6 +39,7 @@
 /*---------fullsize--------*/
 #Img {
     cursor: pointer;
+    margin: 0;
     /* transition: 0.2s; */
 }
 
