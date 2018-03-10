@@ -8,6 +8,7 @@ import Jeng_Neng_Hwang from "../images/Jeng_Neng_Hwang.jpg"
 
 const KeynotePage = () => (
   <div>
+  <h3>Keynote Speakers</h3>
   <Speaker
     speaker_name="Jenq-Neng Hwang"
     speaker_title="Professor and Associate Chair, Department of Electrical Engineering, University of Washington"

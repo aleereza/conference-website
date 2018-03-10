@@ -23,7 +23,7 @@ class NavList extends React.Component {
         <ul className={styles.navlist}>
           <ListLink to="/">Home</ListLink>
           <ListLink to="/call">Call for Papers</ListLink>
-          <ListLink to="/instructions">Instructions</ListLink>
+          <ListLink to="/instructions">Instructions for Authors</ListLink>
           <ListLink to="/registration">Registration</ListLink>
           <ListLink to="/keynote">Keynote Speakers</ListLink>
           <ListLink to="/committee">Committee</ListLink>
