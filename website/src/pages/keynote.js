@@ -5,10 +5,18 @@ import Speaker from "../components/Speaker/Speaker"
 
 import Henrique_Malvar from "../images/Henrique_Malvar.jpg"
 import Jeng_Neng_Hwang from "../images/Jeng_Neng_Hwang.jpg"
+import Gordon_Durity from "../images/Gordon_Durity.jpg"
 
 const KeynotePage = () => (
   <div>
   <h3>Keynote Speakers</h3>
+  <Speaker
+    speaker_name="Gordon Durity"
+    speaker_title="Executive Audio Director, Electronic Arts"
+    avatar= {Gordon_Durity}
+    speaker_desc="Gordon Durity has over 30 years experience in creating soundtracks, writing songs and producing audio in the areas of film, television, games, multimedia, and album production. He currently serves as an Executive Audio Director at Electronic Arts, one of the largest developers of video games in the world. There Gordon designs and supervises the creation and implementation of audio for various titles, works with technical staff to develop new cutting edge technologies, sits on game design groups, and supervises audio at various EA Studios locations worldwide. Gordon currently serves as a consultant to educational institutions, film and music industries on how best to maximize opportunities in the exploding games and multimedia industries. He has also been a guest lecturer at Simon Fraser University, University of British Columbia and Emily Carr University of the Arts.  As a composer, Gordon has written scores for feature and short films, television, radio, dance, theatre, runway shows and games. Gordon has produced and written with many international artists and has had songs charted all over the world. He has worked for USA Network, Fox, Disney, Paramount, CBC, BBC, Trimark, NFB, PBS, ABC, and many independents. Gordon’s current research focus is on audio and experience design and implementation for virtual environments for Virtual Reality/Augmented Reality, and machine learning-based speech synthesis."
+  />
+  
   <Speaker
     speaker_name="Jenq-Neng Hwang"
     speaker_title="Professor and Associate Chair, Department of Electrical Engineering, University of Washington"
