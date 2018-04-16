@@ -8,6 +8,7 @@ import Footer from '../components/Footer/Footer'
 import Dates from '../components/Dates/Dates'
 import Box from '../components/Box'
 import Search from '../components/Search'
+import Warning from '../components/Warning/Warning'
 
 import styles from "./layouts.module.css"
 // import mainNav from '../components/Nav'
@@ -33,6 +34,7 @@ const MainLayout = ({ children }) => (
     <div className={styles.header_container}>
       <Header />
     </div>
+    <Warning content="The deadline for regular and special session papers has been extended to April 25"/>
     <div className={styles.main_container}>
       <div className={styles.left_container}>
         <NavList/>

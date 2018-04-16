@@ -22,7 +22,7 @@ const AddDate = props => (
       <span className="all_day_event">true</span>
       <span className="timezone">America/Los_Angeles</span>
       <span className="title">{props.title}</span>
-      <span className="location">Simon Fraser University</span>
+      <span className="location">SFU Segal building</span>
     </div>
   </div>
 )

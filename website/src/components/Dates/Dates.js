@@ -16,12 +16,12 @@ class Dates extends React.Component {
     return (
       <div className={styles.dates}>
         <Box title="Important Dates">
-          <AddDate start="03/01/2018 08:00 AM" title="Proposals for Special Sessions" eventmonth="MAR" eventday="1"/>
-          <AddDate start="03/06/2018 08:00 AM" title="Notification of Acceptance for Special Session Proposals" eventmonth="MAR" eventday="6"/>
-          <AddDate start="04/15/2018 08:00 AM" title="Submission of Regular and Special Session Papers" eventmonth="APR" eventday="15"/>
-          <AddDate start="05/30/2018 08:00 AM" title="Notification of Paper Acceptance" eventmonth="MAY" eventday="30"/>
-          <AddDate start="06/15/2018 08:00 AM" title="Camera-ready papers due" eventmonth="JUN" eventday="15"/>
-          <AddDate start="06/22/2018 08:00 AM" title="Submission of Abstract and Demo Papers" eventmonth="JUN" eventday="22"/>
+          <AddDate start="03/01/2018" title="Proposals for Special Sessions" eventmonth="MAR" eventday="1"/>
+          <AddDate start="03/06/2018" title="Notification of Acceptance for Special Session Proposals" eventmonth="MAR" eventday="6"/>
+          <AddDate start="04/25/2018" title="Submission of Regular and Special Session Papers" eventmonth="APR" eventday="25"/>
+          <AddDate start="05/30/2018" title="Notification of Paper Acceptance" eventmonth="MAY" eventday="30"/>
+          <AddDate start="06/15/2018" title="Camera-ready papers due" eventmonth="JUN" eventday="15"/>
+          <AddDate start="06/22/2018" title="Submission of Abstract and Demo Papers" eventmonth="JUN" eventday="22"/>
           <AddDate start="08/29/2018 08:00 AM" title="Workshop Start" eventmonth="AUG" eventday="29"/>
         </Box>
       </div>

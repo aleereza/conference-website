@@ -161,3 +161,9 @@
 .content_image {
   margin: 0;
 }
+
+.warning {
+  text-align: center;
+  background-color: #FFA07A;
+  color: #8B0000;
+}
