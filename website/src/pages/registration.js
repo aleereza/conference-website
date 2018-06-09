@@ -10,7 +10,7 @@ const RegistrationPage = () => (
     <h3>Registration</h3>
     <p>To be published in the MMSP 2018 Conference Proceedings and IEEE Xplore®, an author of an accepted paper must register for the conference at the full (member or non-member) rate.
     </p>
-    <p>Non-refundable registration fees must be paid prior to the author registration deadline. The deadline for author registration is June 25th, 2018 at 11:59 PST.  Failure to have such registration will result in removal of the paper from the Technical Program.
+    <p>Non-refundable registration fees must be paid prior to the author registration deadline. The deadline for author registration is June 25th, 2018 at 11:59 PST. Failure to have such registration will result in the removal of the paper from the Technical Program.
     </p>
     <p>For authors with multiple accepted papers, one registration can cover up to 2 papers. Accepted and presented papers will be published in the MMSP 2018 Conference Proceedings and submitted to IEEE Xplore®.
     </p>
@@ -18,14 +18,14 @@ const RegistrationPage = () => (
     </p>
     <p>One must be an IEEE Member at the time of registration to receive the IEEE Member discount. Please visit <a href="https://www.ieee.org/membership/join/index.html">ieee.org/join</a> for more details.
     </p>
-    <p>Table below shows registration fees expressed in Canadian Dollar (CAD) and include 5% Canadian GST:
+    <p>The table below shows registration fees in Canadian Dollar (CAD) and include 5% Canadian GST:
     </p>
     <table>
       <tbody>
         <tr>
-          <th>CAD</th>
-          <th>Advanced/Author Rates <small>(until June 25th 23:59 PST)</small></th>
-          <th>Regular Rates <small>(from June 26th 00:00 PST)</small></th>
+          <th width="40%">CAD</th>
+          <th width="30%">Advance Rates<br/><small>(until June 25th 23:59 PST)</small></th>
+          <th width="30%">Regular Rates<br/><small>(from June 26th 00:00 PST)</small></th>
         </tr>
         <tr>
           <td>Non-Member</td>
@@ -74,7 +74,7 @@ const RegistrationPage = () => (
         </tr>
       </tbody>
     </table>
-    <p><strong>Important:</strong> For receiving the invitation letter for a Canadian Visa application, please contact us via email.
+    <p><strong>Important:</strong> For receiving the invitation letter for a Canadian Visa application, please contact us via email (<a href="mailto:psaeedi@sfu.ca">psaeedi@sfu.ca</a> or <a href="mailto:zjanew@ece.ubc.ca">zjanew@ece.ubc.ca</a>).
     </p>
     <p>Please include your official name, as appears on your passport, as well as your accepted and registered conference paper ID(s).
     </p>
