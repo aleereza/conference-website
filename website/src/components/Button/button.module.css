@@ -1,0 +1,20 @@
+.button {
+  color: white;
+  background-color: Green;
+  border: 0;
+  border-radius: 0.3rem;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 100;
+  transition: background-color 150ms linear;
+}
+.button:hover {
+    background-color: DarkGreen ;
+  }
+.button:active {
+  background-color: Lime;
+  }
+.button:focus {
+    outline:0;
+  }

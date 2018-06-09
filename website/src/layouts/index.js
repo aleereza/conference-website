@@ -10,10 +10,7 @@ import Box from '../components/Box'
 // import Search from '../components/Search'
 // import Warning from '../components/Warning/Warning'
 import CookieBanner from '../components/CookieBanner'
-
-
 import styles from "./layouts.module.css"
-// import mainNav from '../components/Nav'
 import './index.css'
 
 import IEEE from "../images/IEEE.png"
@@ -43,8 +40,6 @@ const MainLayout = ({ children }) => (
       <div className={styles.left_container}>
         <NavList/>
         <Box title="Organizers">
-
-
           <a href="https://www.ubc.ca/"><img src={UBC} className={styles.content_image} alt="" /></a>
           <a href="https://www.sfu.ca/"><img src={SFU} className={styles.content_image} alt="" /></a>
             <a href="https://signalprocessingsociety.org"><img src={IEEE} className={styles.content_image} alt="" /></a>
