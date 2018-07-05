@@ -12,7 +12,7 @@ const InstructionsPage = () => (
 </p>
 <p>A <strong>full</strong> (non-student) registration <strong>MUST</strong> be made by one of the regular and special session paper authors by the author registration deadline (camera-ready paper submission deadline). Failure to register before the deadline will result in automatic withdrawal of your paper from the conference proceedings and program.
 </p>
-<p>A <strong>full</strong> (non-student) registration <strong>MUST</strong> be made by one of the demo paper authors by June 30. Failure to register before this deadline will result in automatic withdrawal of your demo paper from the conference proceedings and program.
+<p>For demo papers, a $400 registration fee <strong>MUST</strong> be paid by one of the demo paper authors by July 10. Failure to register before this deadline will result in automatic withdrawal of your demo paper from the conference proceedings and program.
 </p>
 <p>Paper submission is handled via the CMT system. Please submit your paper at <a href="https://cmt3.research.microsoft.com/MMSP2018" rel="noopener noreferrer">cmt3.research.microsoft.com/MMSP2018</a>
 </p>

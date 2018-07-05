@@ -14,6 +14,8 @@ const RegistrationPage = () => (
     </p>
     <p>For authors with multiple accepted papers, one registration can cover up to 2 papers. Accepted and presented papers will be published in the MMSP 2018 Conference Proceedings and submitted to IEEE Xplore®.
     </p>
+    <p>Each demo paper must be covered by a $400 registration fee, as noted in the table below. Demo paper registrations must be made by July 10. Registered demo papers will be included in the technical program and the electronic proceedings, but will not appear on IEEE Xplore®. Authors are free to self-archive preprint versions of these papers.
+    </p>
     <p>Registration ​fee ​includes ​access ​to ​the ​entire ​technical ​programme ​for ​3 ​days, ​coffee ​breaks, ​lunch, ​banquet/social ​event, ​and ​electronic ​proceedings.
     </p>
     <p>One must be an IEEE Member at the time of registration to receive the IEEE Member discount. Please visit <a href="https://www.ieee.org/membership/join/index.html">ieee.org/join</a> for more details.
