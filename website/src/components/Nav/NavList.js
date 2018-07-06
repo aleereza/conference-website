@@ -30,7 +30,6 @@ class NavList extends React.Component {
           <ListLink to="/grants">IEEE SPS Travel Grants</ListLink>
           <ListLink to="/keynote">Keynote Speakers</ListLink>
           <ListLink to="/committee">Committee</ListLink>
-          <ListLink to="/sessions">Sessions</ListLink>
           <ListLink to="/technical">Technical Program</ListLink>
           <ListLink to="/accommodation">Travel and Accommodation</ListLink>
           <ListLink to="/venue">Venue</ListLink>

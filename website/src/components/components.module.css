@@ -119,6 +119,7 @@
   align-items: center;
   /* margin: 0 auto 12px auto; */
   margin: 0;
+  padding-bottom: .5rem;
 }
 
 .avatar {
@@ -132,12 +133,13 @@
   /* margin: 0 0 12px 0; */
   margin: 0;
   padding: 0;
+
 }
 
 .speaker_name, .speaker_title {
   /* margin: 0 0 12px 0; */
   margin: 0;
-  padding: 1rem;
+  padding: .5rem;
 }
 
 .speaker_body {
@@ -174,4 +176,8 @@
 td {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
+}
+
+.nomarginb {
+  margin-bottom: 0;
 }
