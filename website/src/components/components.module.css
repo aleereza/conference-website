@@ -177,7 +177,10 @@ td {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
 }
-
+/*---------technical program--------*/
 .nomarginb {
   margin-bottom: 0;
+}
+.schedule_headrow p{
+  margin: 0;
 }

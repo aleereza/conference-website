@@ -18,86 +18,87 @@ const TechnicalPage = () => (
     <h3>Technical Program</h3>
 
 
-
-    <table>
-      <tbody>
-        <tr>
-          <th width="13%"></th>
-          <th width="29%">Wednesday August 29, 2018</th>
-          <th width="29%">Thursday August 30, 2018</th>
-          <th width="29%">Friday August 31, 2018</th>
-        </tr>
-        <ScheduleRow
-          time="08:45am 09:00am"
-          day1="Opening"
-          day2="Opening"
-          day3="Opening"
-        />
-        <ScheduleRow
-          time="09:00am 10:00am"
-          day1="Keynote 1"
-          day2="Keynote 2"
-          day3="Keynote 3"
-          cellcolor="#ffe6f9"
-        />
-        <ScheduleRow
-          time="10:00am 10:20am"
-          day1="Break with refreshments"
-          day2="Break with refreshments"
-          day3="Break with refreshments"
-        />
-        <ScheduleRow
-          time="10:20am 12:10pm"
-          day1="Special Session SS.W1"
-          day2="Special Session SS.T1"
-          day3="Special Session SS.F1"
-          cellcolor="#e6f2ff"
-        />
-        <ScheduleRow
-          time="12:10pm 01:30pm"
-          day1="Lunch"
-          day2="Lunch, MMSP TC meeting"
-          day3="Lunch"
-        />
-        <ScheduleRow
-          time="01:30pm 02:30pm"
-          day1="Poster Session PS.W1"
-          day2="Poster Session PS.T1"
-          day3="Poster Session PS.F1"
-          cellcolor="#ffd9b3"
-        />
-        <ScheduleRow
-          time="02:30pm 02:50pm"
-          day1="Break with refreshments"
-          day2="Break with refreshments"
-          day3="Break with refreshments"
-        />
-        <ScheduleRow
-          time="02:50pm 04:20pm"
-          day1="Lecture Session LS.W1"
-          day2="Lecture Session LS.T1"
-          day3="Lecture Session LS.F1"
-          cellcolor="#c2f0c2"
-        />
-        <ScheduleRow
-          time="04:20pm 04:30pm"
-          day1="Break with refreshments"
-          day2="Break with refreshments"
-          day3="Closing"
-        />
-        <ScheduleRow
-          time="04:30pm 06:00pm"
-          day1="Lecture Session LS.W2"
-          day2="Lecture Session LS.T2"
-          day3=""
-          cellcolor="#c2f0c2"
-        />
-      </tbody>
-    </table>
+    <div style={{overflowX:"auto"}}>
+      <table>
+        <tbody>
+          <tr>
+            <th width="13%"></th>
+            <th width="29%" className={styles.schedule_headrow}><p>Wednesday</p><p>August 29, 2018</p></th>
+            <th width="29%" className={styles.schedule_headrow}><p>Thursday</p><p>August 30, 2018</p></th>
+            <th width="29%" className={styles.schedule_headrow}><p>Friday</p><p>August 31, 2018</p></th>
+          </tr>
+          <ScheduleRow
+            time="08:45am 09:00am"
+            day1="Opening"
+            day2=""
+            day3=""
+          />
+          <ScheduleRow
+            time="09:00am 10:00am"
+            day1="Keynote 1"
+            day2="Keynote 2"
+            day3="Keynote 3"
+            cellcolor="#ffe6f9"
+          />
+          <ScheduleRow
+            time="10:00am 10:20am"
+            day1="Break with refreshments"
+            day2="Break with refreshments"
+            day3="Break with refreshments"
+          />
+          <ScheduleRow
+            time="10:20am 12:10pm"
+            day1="Special Session SS.W1"
+            day2="Special Session SS.T1"
+            day3="Special Session SS.F1"
+            cellcolor="#e6f2ff"
+          />
+          <ScheduleRow
+            time="12:10pm 01:30pm"
+            day1="Lunch"
+            day2="Lunch, MMSP TC meeting"
+            day3="Lunch"
+          />
+          <ScheduleRow
+            time="01:30pm 02:30pm"
+            day1="Poster Session PS.W1"
+            day2="Poster Session PS.T1"
+            day3="Poster Session PS.F1"
+            cellcolor="#ffd9b3"
+          />
+          <ScheduleRow
+            time="02:30pm 02:50pm"
+            day1="Break with refreshments"
+            day2="Break with refreshments"
+            day3="Break with refreshments"
+          />
+          <ScheduleRow
+            time="02:50pm 04:20pm"
+            day1="Lecture Session LS.W1"
+            day2="Lecture Session LS.T1"
+            day3="Lecture Session LS.F1"
+            cellcolor="#c2f0c2"
+          />
+          <ScheduleRow
+            time="04:20pm 04:30pm"
+            day1="Break with refreshments"
+            day2="Break with refreshments"
+            day3="Closing"
+          />
+          <ScheduleRow
+            time="04:30pm 06:00pm"
+            day1="Lecture Session LS.W2"
+            day2="Lecture Session LS.T2"
+            day3=""
+            cellcolor="#c2f0c2"
+          />
+        </tbody>
+      </table>
+    </div>
     <a href={TechnicalProgram} download="Technical_Program.pdf"><small>Download in PDF</small></a>
 
     <h3 style={{backgroundColor: "#cccccc", textAlign: "center", padding: ".5rem"}}>Wednesday, August 29, 2018</h3>
-    <h3>Keynote 1</h3>
+    <h3 className={styles.nomarginb}>Keynote 1</h3>
     <p>Time: 9:00am – 10:00am</p>
 
     <SpeakerKeynote
@@ -108,8 +109,8 @@ const TechnicalPage = () => (
       speaker_desc="Gordon Durity has over 30 years experience in creating soundtracks, writing songs and producing audio in the areas of film, television, games, multimedia, and album production. He currently serves as an Executive Audio Director at Electronic Arts, one of the largest developers of video games in the world. There Gordon designs and supervises the creation and implementation of audio for various titles, works with technical staff to develop new cutting edge technologies, sits on game design groups, and supervises audio at various EA Studios locations worldwide. Gordon currently serves as a consultant to educational institutions, film and music industries on how best to maximize opportunities in the exploding games and multimedia industries. He has also been a guest lecturer at Simon Fraser University, University of British Columbia and Emily Carr University of the Arts.  As a composer, Gordon has written scores for feature and short films, television, radio, dance, theatre, runway shows and games. Gordon has produced and written with many international artists and has had songs charted all over the world. He has worked for USA Network, Fox, Disney, Paramount, CBC, BBC, Trimark, NFB, PBS, ABC, and many independents. Gordon’s current research focus is on audio and experience design and implementation for virtual environments for Virtual Reality/Augmented Reality, and machine learning-based speech synthesis."
     />
 
-    <h4>Special Session SS.W1: Spatial Acoustics Using Sensor Arrays: Visions to Implementations</h4>
-    <p>Session Chair: Rodney G. Vaughan</p>
+    <h4 className={styles.nomarginb}>Special Session SS.W1: Spatial Acoustics Using Sensor Arrays: Visions to Implementations</h4>
+    <p className={styles.nomarginb}>Session Chair: Rodney G. Vaughan</p>
     <p>Time: 10:20am – 12:10pm</p>
 
     <table>
@@ -151,8 +152,8 @@ const TechnicalPage = () => (
       </tbody>
     </table>
 
-    <h4>Poster Session PS.W1: Multimedia Processing and Analysis I</h4>
-    <p>Session Chair: TBA</p>
+    <h4 className={styles.nomarginb}>Poster Session PS.W1: Multimedia Processing and Analysis I</h4>
+    <p className={styles.nomarginb}>Session Chair: TBA</p>
     <p>Time: 1:30pm – 2:30pm</p>
 
     <table>
@@ -209,8 +210,8 @@ const TechnicalPage = () => (
       </tbody>
     </table>
 
-    <h4>Lecture Session LS.W1: Visual Indexing, Analysis, and Representation</h4>
-    <p>Session Chair: Parvaneh Saeedi</p>
+    <h4 className={styles.nomarginb}>Lecture Session LS.W1: Visual Indexing, Analysis, and Representation</h4>
+    <p className={styles.nomarginb}>Session Chair: Parvaneh Saeedi</p>
     <p>Time: 2:50pm – 4:20pm</p>
 
     <table>
@@ -247,8 +248,8 @@ const TechnicalPage = () => (
       </tbody>
     </table>
 
-    <h4>Lecture Session LS.W2: Multimedia Compression</h4>
-    <p>Session Chair: TBA</p>
+    <h4 className={styles.nomarginb}>Lecture Session LS.W2: Multimedia Compression</h4>
+    <p className={styles.nomarginb}>Session Chair: TBA</p>
     <p>Time: 4:30pm – 6:00pm</p>
 
     <table>
@@ -286,7 +287,7 @@ const TechnicalPage = () => (
     </table>
 
     <h3 style={{backgroundColor: "#cccccc", textAlign: "center", padding: ".5rem"}}>Thursday, August 30, 2018</h3>
-    <h3>Keynote 2</h3>
+    <h3 className={styles.nomarginb}>Keynote 2</h3>
     <p>Time: 9:00am – 10:00am</p>
 
     <SpeakerKeynote
@@ -297,8 +298,8 @@ const TechnicalPage = () => (
       speaker_desc="Dr. Jenq-Neng Hwang received the BS and MS degrees, both in electrical engineering from the National Taiwan University, Taipei, Taiwan, in 1981 and 1983 separately. He then received his Ph.D. degree from the University of Southern California. In the summer of 1989, Dr. Hwang joined the Department of Electrical Engineering of the University of Washington in Seattle, where he has been promoted to Full Professor since 1999. He served as the Associate Chair for Research from 2003 to 2005, and from 2011-2015. He is currently the Associate Chair for Global Affairs and International Development in the EE Department. He has written more than 330 journal, conference papers and book chapters in the areas of multimedia signal processing, and multimedia system integration and networking, including an authored textbook on 'Multimedia Networking: from Theory to Practice', published by Cambridge University Press. Dr. Hwang has close working relationship with the industry on multimedia signal processing and multimedia networking. Dr. Hwang received the 1995 IEEE Signal Processing Society's Best Journal Paper Award. He is a founding member of Multimedia Signal Processing Technical Committee of IEEE Signal Processing Society and was the Society's representative to IEEE Neural Network Council from 1996 to 2000. He is currently a member of Multimedia Technical Committee (MMTC) of IEEE Communication Society and also a member of Multimedia Signal Processing Technical Committee (MMSP TC) of IEEE Signal Processing Society. He served as associate editors for IEEE T-SP, T-NN and T-CSVT, T-IP and Signal Processing Magazine (SPM). He is currently on the editorial board of ZTE Communications, ETRI, IJDMB and JSPS journals. He served as the Program Co-Chair of IEEE ICME 2016 and was the Program Co-Chairs of ICASSP 1998 and ISCAS 2009. Dr. Hwang is a fellow of IEEE since 2001."
     />
 
-    <h4>Special Session SS.T1: Recent Advances in Image Restoration and Quality Metrics for Restoration Algorithms</h4>
-    <p>Session Chairs: Xianming Liu, Shiqi Wang, and Guangtao Zhai</p>
+    <h4 className={styles.nomarginb}>Special Session SS.T1: Recent Advances in Image Restoration and Quality Metrics for Restoration Algorithms</h4>
+    <p className={styles.nomarginb}>Session Chairs: Xianming Liu, Shiqi Wang, and Guangtao Zhai</p>
     <p>Time: 10:20am – 12:10pm</p>
 
 
@@ -341,8 +342,8 @@ const TechnicalPage = () => (
       </tbody>
     </table>
 
-    <h4>Poster Session PS.T1: Multimedia Processing and Analysis II</h4>
-    <p>Session Chair: TBA</p>
+    <h4 className={styles.nomarginb}>Poster Session PS.T1: Multimedia Processing and Analysis II</h4>
+    <p className={styles.nomarginb}>Session Chair: TBA</p>
     <p>Time: 1:30pm – 2:30pm</p>
 
     <table>
@@ -399,8 +400,8 @@ const TechnicalPage = () => (
       </tbody>
     </table>
 
-    <h4>Lecture Session LS.T1: Multimedia Processing, Forensics, and Analysis</h4>
-    <p>Session Chair: TBA</p>
+    <h4 className={styles.nomarginb}>Lecture Session LS.T1: Multimedia Processing, Forensics, and Analysis</h4>
+    <p className={styles.nomarginb}>Session Chair: TBA</p>
     <p>Time: 2:50pm – 4:20pm</p>
 
     <table>
@@ -437,8 +438,8 @@ const TechnicalPage = () => (
       </tbody>
     </table>
 
-    <h4>Lecture Session LS.T2: Multimedia Quality, Human Factors, and HCI</h4>
-    <p>Session Chair: TBA</p>
+    <h4 className={styles.nomarginb}>Lecture Session LS.T2: Multimedia Quality, Human Factors, and HCI</h4>
+    <p className={styles.nomarginb}>Session Chair: TBA</p>
     <p>Time: 4:30pm – 6:00pm</p>
 
     <table>
@@ -476,7 +477,7 @@ const TechnicalPage = () => (
     </table>
 
     <h3 style={{backgroundColor: "#cccccc", textAlign: "center", padding: ".5rem"}}>Friday, August 31, 2018</h3>
-    <h3>Keynote 3</h3>
+    <h3 className={styles.nomarginb}>Keynote 3</h3>
     <p>Time: 9:00am – 10:00am</p>
 
     <SpeakerKeynote
@@ -487,8 +488,8 @@ const TechnicalPage = () => (
       speaker_desc="Henrique (Rico) Malvar is a Microsoft Distinguished Engineer and the Chief Scientist for Microsoft Research. He currently leads a new team at MSR developing technologies for people with disabilities. He joined Microsoft Research in 1997, founding the signal processing group, which developed new technologies such as new media compression formats used in Windows, Xbox, and Office, and microphone array processing technologies used in Windows, Xbox Kinect, and HoloLens. Rico was a key architect for the media compression formats WMA and JPEG XR and made key contributions to the H.264 video format, used by most Web video services. Rico received a PhD from MIT in 1986 and is a Member of the US National Academy of Engineering. He has over 120 issued US patents and over 160 publications. He is an IEEE Fellow and has received many awards, including the Technical Achievement Award from the IEEE Signal Processing Society in 2002."
     />
 
-    <h4>Special Session SS.F1: Multimodal Machine Learning: Advances and Applications</h4>
-    <p>Session Chairs: Huisheng Wang and Qifei Wang</p>
+    <h4 className={styles.nomarginb}>Special Session SS.F1: Multimodal Machine Learning: Advances and Applications</h4>
+    <p className={styles.nomarginb}>Session Chairs: Huisheng Wang and Qifei Wang</p>
     <p>Time: 10:20am – 12:10pm</p>
 
     <table>
@@ -525,8 +526,8 @@ const TechnicalPage = () => (
       </tbody>
     </table>
 
-    <h4>Poster/Demo Session PS.F1: Multimedia Systems, Tools, and Applications</h4>
-    <p>Session Chair: TBA</p>
+    <h4 className={styles.nomarginb}>Poster/Demo Session PS.F1: Multimedia Systems, Tools, and Applications</h4>
+    <p className={styles.nomarginb}>Session Chair: TBA</p>
     <p>Time: 1:30pm – 2:30pm</p>
 
     <table>
@@ -593,8 +594,8 @@ const TechnicalPage = () => (
       </tbody>
     </table>
 
-    <h4>Lecture Session LS.F1: Deep Learning for Multimedia Processing</h4>
-    <p>Session Chair: TBA</p>
+    <h4 className={styles.nomarginb}>Lecture Session LS.F1: Deep Learning for Multimedia Processing</h4>
+    <p className={styles.nomarginb}>Session Chair: TBA</p>
     <p>Time: 2:50pm – 4:20pm</p>
 
     <table>
