@@ -562,6 +562,11 @@ const TechnicalPage = () => (
           authors="Julien Li-Chee-Ming, Zheng Wu, Randy Tan, Ryan Tan, Naimul Mefraz Khan, Andy Ye,  and Ling Guan (Ryerson University)"
         />
         <PaperRow
+          id="163"
+          title="Automatic Music Accompaniment System Applied to Singing Recreation at Long-Term Geriatric Health-Care Facilities"
+          authors="Yasuyuki Saito (National Institute of Technology), Yasuji Sakai (Atsugi-city Animated Supporter), Yuu Igarashi (Sound Scape), Eita Nakamura (Kyoto University), Suguru Agata (Asia Pacific Electronic Keyboard Association), and Shigeki Sagayama (Meiji University)"
+        />
+        <PaperRow
           id="164"
           title="Effects Selection Tool for Improving Visual Attraction of a Target Object"
           authors="Natsumi Suzuki and Yohei Nakada (Meiji University)"
