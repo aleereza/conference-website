@@ -2,7 +2,7 @@ module.exports = {
   // Note: it must *not* have a trailing slash.
   pathPrefix: '/~mmsp2018',
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'MMSP 2018',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

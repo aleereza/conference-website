@@ -16,7 +16,11 @@ const KeynotePage = () => (
     avatar= {Gordon_Durity}
     speaker_desc="Gordon Durity has over 30 years experience in creating soundtracks, writing songs and producing audio in the areas of film, television, games, multimedia, and album production. He currently serves as an Executive Audio Director at Electronic Arts, one of the largest developers of video games in the world. There Gordon designs and supervises the creation and implementation of audio for various titles, works with technical staff to develop new cutting edge technologies, sits on game design groups, and supervises audio at various EA Studios locations worldwide. Gordon currently serves as a consultant to educational institutions, film and music industries on how best to maximize opportunities in the exploding games and multimedia industries. He has also been a guest lecturer at Simon Fraser University, University of British Columbia and Emily Carr University of the Arts.  As a composer, Gordon has written scores for feature and short films, television, radio, dance, theatre, runway shows and games. Gordon has produced and written with many international artists and has had songs charted all over the world. He has worked for USA Network, Fox, Disney, Paramount, CBC, BBC, Trimark, NFB, PBS, ABC, and many independents. Gordon’s current research focus is on audio and experience design and implementation for virtual environments for Virtual Reality/Augmented Reality, and machine learning-based speech synthesis."
   />
-  
+  <h4>Keynote Title: Giving Creatives Bigger Levers</h4>
+  <h4>Abstract:</h4>
+  <p>We are in a place in the interactive entertainment industries where content is king. Games and apps are no longer single delivered products, but are becoming more like an OS by which an ongoing stream of content can be delivered to the consumer. We are also dealing with multiple platforms from mobile devices to traditional consoles to VR/AR rigs. As content producers we are researching, applying and integrating machine learning, AI, and procedural/generative systems into our development processes to amplify the capabilities of the modern day “cyber-artist”. This presentation will explore and examine some of the thinking and work we are doing at Electronic Arts in these areas, and specifically in the realm of audio.
+  </p>
+
   <Speaker
     speaker_name="Jenq-Neng Hwang"
     speaker_title="Professor and Associate Chair, Department of Electrical Engineering, University of Washington"

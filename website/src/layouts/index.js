@@ -17,6 +17,7 @@ import IEEE from "../images/IEEE.png"
 import IEEE_sp from "../images/IEEE_sp.png"
 import SFU from "../images/SFU.png"
 import UBC from "../images/UBC.png"
+import favicon from "../images/favicon.ico"
 
 const MainLayout = ({ children }) => (
 
