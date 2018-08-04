@@ -42,8 +42,6 @@ const MainLayout = ({ children }) => (
       <div className={styles.left_container}>
         <NavList/>
         <Box title="Organizers">
-          <a href="https://www.ubc.ca/"><img src={UBC} className={styles.content_image} alt="" /></a>
-          <a href="https://www.sfu.ca/"><img src={SFU} className={styles.sfu_image} alt="" /></a>
           <a href="https://signalprocessingsociety.org"><img src={IEEE} className={styles.ieee_image} alt="" /></a>
           <a href="https://signalprocessingsociety.org"><img src={IEEE_sp} className={styles.content_image} alt="" /></a>
         </Box>
@@ -55,6 +53,10 @@ const MainLayout = ({ children }) => (
         <Dates />
         <Box title="Silver Patrons">
           <a href="https://www.youtube.com/"><img src={youtube} className={styles.youtube_image} alt="" /></a>
+        </Box>
+        <Box title="Bronze Patrons">
+          <a href="https://www.ubc.ca/"><img src={UBC} className={styles.content_image} alt="" /></a>
+          <a href="https://www.sfu.ca/"><img src={SFU} className={styles.sfu_image} alt="" /></a>
         </Box>
       </div>
 
