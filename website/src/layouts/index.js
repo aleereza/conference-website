@@ -17,6 +17,7 @@ import IEEE from "../images/IEEE.png"
 import IEEE_sp from "../images/IEEE_sp.png"
 import SFU from "../images/SFU.png"
 import UBC from "../images/UBC.png"
+import youtube from "../images/youtube_logo.png"
 import favicon from "../images/favicon.ico"
 
 const MainLayout = ({ children }) => (
@@ -42,9 +43,9 @@ const MainLayout = ({ children }) => (
         <NavList/>
         <Box title="Organizers">
           <a href="https://www.ubc.ca/"><img src={UBC} className={styles.content_image} alt="" /></a>
-          <a href="https://www.sfu.ca/"><img src={SFU} className={styles.content_image} alt="" /></a>
-            <a href="https://signalprocessingsociety.org"><img src={IEEE} className={styles.content_image} alt="" /></a>
-            <a href="https://signalprocessingsociety.org"><img src={IEEE_sp} className={styles.content_image} alt="" /></a>
+          <a href="https://www.sfu.ca/"><img src={SFU} className={styles.sfu_image} alt="" /></a>
+          <a href="https://signalprocessingsociety.org"><img src={IEEE} className={styles.ieee_image} alt="" /></a>
+          <a href="https://signalprocessingsociety.org"><img src={IEEE_sp} className={styles.content_image} alt="" /></a>
         </Box>
       </div>
       <div className={styles.center_container}>
@@ -52,7 +53,11 @@ const MainLayout = ({ children }) => (
       </div>
       <div className={styles.right_container}>
         <Dates />
+        <Box title="Silver Patrons">
+          <a href="https://www.youtube.com/"><img src={youtube} className={styles.youtube_image} alt="" /></a>
+        </Box>
       </div>
+
     </div>
 
     <footer className = {styles.footer_container}>

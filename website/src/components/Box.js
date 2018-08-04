@@ -5,8 +5,8 @@ import styles from "./components.module.css"
 
 const Box = props =>
   <div className={styles.box}>
-    <h4>{props.title}
-    </h4>
+    <h3>{props.title}
+    </h3>
     {props.children}
   </div>
 
