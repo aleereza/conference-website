@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import styles from "../components/components.module.css"
+
 const GrantsPage = () => (
   <div>
-    <h3>IEEE SPS Travel Grants</h3>
+    <h3 className={styles.pagetitle}>IEEE SPS Travel Grants</h3>
     <p>IEEE Signal Processing Society has allocated a limited number of travel grants to MMSP 2018 attendees. The decision was based on the review score and applications by the Chairs.</p>
     <p>The detailed guidelines are available on <a href="https://signalprocessingsociety.org/events/sps-travel-grants">the SPS Travel Grants page</a>.</p>
     <p>Application for IEEE SPS Travel Grants (for MMSP2018): <strong>June 15 - July 4, 2018</strong></p>

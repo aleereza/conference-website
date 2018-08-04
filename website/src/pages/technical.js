@@ -15,7 +15,7 @@ import TechnicalProgram from "../files/MMSP2018_Technical_Program_tentative.pdf"
 
 const TechnicalPage = () => (
   <div>
-    <h3>Technical Program</h3>
+    <h3 className={styles.pagetitle}>Technical Program</h3>
 
 
     <div style={{overflowX:"auto"}}>

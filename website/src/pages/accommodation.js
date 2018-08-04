@@ -4,9 +4,11 @@ import Link from 'gatsby-link'
 import FullSize from "../components/FullSize"
 import hotels from "../images/hotels.png"
 
+import styles from "../components/components.module.css"
+
 const AccommodationPage = () => (
   <div>
-    <h3>Accommodation</h3>
+    <h3 className={styles.pagetitle}>Accommodation</h3>
     <h4>Visa information</h4>
     <p>Depending on where you live, and the reason for your visit, you will need to meet certain entry requirements. In some cases, if you plan to stay in Canada for a certain period of time, you will need a Temporary Resident Visa. <a href="http://www.cic.gc.ca/english/visit/visas.asp">Here</a> you can find out if you need a visa.
     </p>

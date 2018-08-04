@@ -8,7 +8,7 @@ import venue from "../images/venue.jpg"
 
 const VenuePage = () => (
   <div>
-    <h3>Venue</h3>
+    <h3 className={styles.pagetitle}>Venue</h3>
     <p>The workshop will be hosted in the <a href="https://www.sfu.ca/mecs/facilities/segal-building/">SFU Segal building</a>.
     </p>
     <img src={venue} className={styles.content_image} alt="" />

@@ -7,7 +7,7 @@ import styles from "../components/components.module.css"
 
 const RegistrationPage = () => (
   <div>
-    <h3>Registration</h3>
+    <h3 className={styles.pagetitle}>Registration</h3>
     <p><strong>Please note: To be published in the MMSP 2018 Conference Proceedings and IEEE Xplore®, an author of an accepted paper must register for the conference at the full (member or non-member) rate.</strong>
     </p>
     <p>Non-refundable registration fees must be paid prior to the author registration deadline. The deadline for author registration is June 25th, 2018 at 11:59 PST. Failure to have such registration will result in the removal of the paper from the Technical Program.

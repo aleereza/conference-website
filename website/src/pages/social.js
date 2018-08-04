@@ -9,7 +9,7 @@ import pic3 from "../images/social3.jpg"
 
 const SocialPage = () => (
   <div>
-    <h3>Banquet Dinner</h3>
+    <h3 className={styles.pagetitle}>Banquet Dinner</h3>
     <p className={styles.nomarginb}>Thursday, 30 August 2018 – 7:00pm – 10:30pm
     </p>
     <p>Venue: Grouse Mountain- The peak of Vancouver

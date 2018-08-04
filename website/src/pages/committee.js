@@ -1,8 +1,10 @@
 import React from 'react'
 
+import styles from "../components/components.module.css"
+
 const CommitteePage = () => (
 <div>
-<h3>General Chairs</h3>
+<h3 className={styles.pagetitle}>General Chairs</h3>
 <ul>
   <li>Frederic Dufaux, CNRS, France
   </li>

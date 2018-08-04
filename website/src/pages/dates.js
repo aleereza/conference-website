@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import styles from "../components/components.module.css"
+
 const DatesPage = () => (
   <div>
-    <h3>Deadline Dates</h3>
+    <h3 className={styles.pagetitle}>Deadline Dates</h3>
     <table>
       <tbody>
         <tr><td>March 1</td><td>Proposals for Special Sessions</td></tr>

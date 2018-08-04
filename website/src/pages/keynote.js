@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import styles from "../components/components.module.css"
+
 import Speaker from "../components/Speaker/Speaker"
 
 import Henrique_Malvar from "../images/Henrique_Malvar.jpg"
@@ -9,7 +11,7 @@ import Gordon_Durity from "../images/Gordon_Durity.jpg"
 
 const KeynotePage = () => (
   <div>
-  <h3>Keynote Speakers</h3>
+  <h3 className={styles.pagetitle}>Keynote Speakers</h3>
   <Speaker
     speaker_name="Gordon Durity"
     speaker_title="Executive Audio Director, Electronic Arts"
@@ -30,7 +32,7 @@ const KeynotePage = () => (
 
   <h4>Keynote Title: Coordinated Dynamic Mining of 3D Physical World from Videos</h4>
   <h4>Abstract:</h4>
-  <p>With the huge amount of networked video cameras available everywhere nowadays, such as the statically deployed surveillance cameras or the constantly moving cameras on the vehicles or drones, there is an urgent need of systematic and coordinated mining of the dynamic environment in the 3D physical world, so that the explored information  can be exploited for various smart city applications, such as security surveillance, intelligent transportation, business statistics collection, health monitoring of communities, and etc. In this talk, I will first present an automated and robust human/vehicle tracking directly in 3D space through self-calibration of static and moving monocular cameras. These tracked objects locations and speed, as well as their poses, can all be described based on the GPS coordinates, so that the tracked objects from multiple cameras can then be effectively integrated and reconstructed in the 3D real-world space for many smart city and intelligent transportation applications. 
+  <p>With the huge amount of networked video cameras available everywhere nowadays, such as the statically deployed surveillance cameras or the constantly moving cameras on the vehicles or drones, there is an urgent need of systematic and coordinated mining of the dynamic environment in the 3D physical world, so that the explored information  can be exploited for various smart city applications, such as security surveillance, intelligent transportation, business statistics collection, health monitoring of communities, and etc. In this talk, I will first present an automated and robust human/vehicle tracking directly in 3D space through self-calibration of static and moving monocular cameras. These tracked objects locations and speed, as well as their poses, can all be described based on the GPS coordinates, so that the tracked objects from multiple cameras can then be effectively integrated and reconstructed in the 3D real-world space for many smart city and intelligent transportation applications.
   </p>
 
   <Speaker

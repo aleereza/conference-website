@@ -1,8 +1,10 @@
 import React from 'react'
 
+import styles from "../components/components.module.css"
+
 const CallPage = () => (
 <div>
-<h3>Call for Papers</h3>
+<h3 className={styles.pagetitle}>Call for Papers</h3>
 <p>MMSP 2018 is the IEEE 20th International Workshop on Multimedia Signal Processing. The workshop is organized by the Multimedia Signal Processing Technical Committee (MMSP TC) of the IEEE Signal Processing Society. The workshop will bring together searcher and developers from different fields working on multimedia signal processing to share their experience, exchange ideas, explore future research directions and network. Papers are solicited in, but not limited to, the following areas:
 </p>
 <ul>

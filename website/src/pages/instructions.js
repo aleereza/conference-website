@@ -4,7 +4,7 @@ import styles from "../components/components.module.css"
 
 const InstructionsPage = () => (
 <div>
-<h3>Instructions for Authors</h3>
+<h3 className={styles.pagetitle}>Instructions for Authors</h3>
 <p>Please read the following instructions carefully. By submitting a manuscript to MMSP, the authors guarantee that the material is original and that it has not been published, and is not currently submitted for consideration, elsewhere.</p><p>Two types of papers will be considered for submission: regular and special session papers (full paper) and demo papers. <strong>Only accepted regular and special session (full) papers will be published on IEEE Xplore. </strong>All accepted papers will be included in the digital conference proceedings.
 </p>
 <p><strong>1. Regular and Special Session papers (Full Paper):</strong> 4-6 page paper, including all text, figures and references, ready for archival publication in IEEE Xplore if accepted.</p><p><strong>2. Demo Paper:</strong> 1 page paper with Title, Author/s, Abstract, and Prototype Description.</p><p>All paper types <strong>MUST</strong> be formatted according to Microsoft Word or Latex templates given below.</p><p>All papers <strong>MUST</strong> be submitted by their respective <Link className={styles.link} to="/dates">deadline dates</Link>. There will be no exceptions.</p>
