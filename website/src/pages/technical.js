@@ -487,12 +487,15 @@ const TechnicalPage = () => (
     <p>Time: 9:00am – 10:00am</p>
 
     <SpeakerKeynote
-      keynote_title="Title: TBD"
+      keynote_title="Title: Innovations in Assistive Technologies"
       speaker_name="Henrique Malvar"
       speaker_title="Chief Scientist, Microsoft Research"
       avatar= {Henrique_Malvar}
       speaker_desc="Henrique (Rico) Malvar is a Microsoft Distinguished Engineer and the Chief Scientist for Microsoft Research. He currently leads a new team at MSR developing technologies for people with disabilities. He joined Microsoft Research in 1997, founding the signal processing group, which developed new technologies such as new media compression formats used in Windows, Xbox, and Office, and microphone array processing technologies used in Windows, Xbox Kinect, and HoloLens. Rico was a key architect for the media compression formats WMA and JPEG XR and made key contributions to the H.264 video format, used by most Web video services. Rico received a PhD from MIT in 1986 and is a Member of the US National Academy of Engineering. He has over 120 issued US patents and over 160 publications. He is an IEEE Fellow and has received many awards, including the Technical Achievement Award from the IEEE Signal Processing Society in 2002."
     />
+    <h4>Keynote Abstract:</h4>
+    <p>Computing and information technologies have changed our lives. We can’t imagine living without our mobile devices, computers, and cloud applications and services. They have increased our productivity and our entertainment options tremendously over the past few decades. Still, for person with disabilities, the full potential of those technologies may be out of reach. There are over one billion people with disabilities in the world, and we have the opportunity and responsibility to leverage technological advances to significantly improve their lives, by making modern technologies more accessible. In this presentation we will discuss some recent advances in assistive technologies that help overcome disabilities in vision, hearing, mobility, and cognition, with examples of some of the work at Microsoft. Those include advances in computer vision, audio signal processing, and natural language processing.
+    </p>
 
     <h4 className={styles.nomarginb}>Special Session SS.F1: Multimodal Machine Learning: Advances and Applications</h4>
     <p className={styles.nomarginb}>Session Chairs: Huisheng Wang and Qifei Wang</p>
