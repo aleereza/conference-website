@@ -1,5 +1,7 @@
 td {
   text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* .cell {
@@ -7,5 +9,9 @@ td {
 } */
 
 .time {
-  line-height: 0.9
+  line-height: 0.9;
+}
+
+th:last-child, td:last-child {
+    padding-right: 1rem;
 }
