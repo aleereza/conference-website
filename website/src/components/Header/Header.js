@@ -10,15 +10,17 @@ const Header = () => (
   <div className={styles.image_container}>
     <div className={styles.image_content}>
       <div className={styles.title_text_container}>
-        <Link to="/"  className={styles.title_text}>
-          <h1 className={styles.title_text}>
-          MMSP 2018
-          </h1>
-        </Link>
-        <h3 className={styles.title_text}>IEEE 20th International Workshop on Multimedia Signal Processing
-        </h3>
-        <h4 className={styles.title_text}>August 29-31	2018,	Vancouver, Canada
-        </h4>
+        <div className={styles.title_text_innercontainer}>
+          <Link to="/"  className={styles.title_text}>
+            <h1 className={styles.title_text}>
+            MMSP 2018
+            </h1>
+          </Link>
+          <h3 className={styles.title_text}>IEEE 20th International Workshop on Multimedia Signal Processing
+          </h3>
+          <h4 className={styles.title_text}>August 29-31	2018,	Vancouver, Canada
+          </h4>
+        </div>
       </div>
     </div>
   </div>
