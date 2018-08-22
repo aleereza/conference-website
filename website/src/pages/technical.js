@@ -113,7 +113,7 @@ const TechnicalPage = () => (
     </p>
 
     <h4 className={styles.nomarginb}>Special Session SS.W1: Spatial Acoustics Using Sensor Arrays: Visions to Implementations</h4>
-    <p className={styles.nomarginb}>Session Chair: Rodney G. Vaughan</p>
+    <p className={styles.nomarginb}>Session Chair: Rodney G. Vaughan  (Simon Fraser University)</p>
     <p>Time: 10:20am – 12:10pm</p>
 
     <table>
@@ -156,7 +156,7 @@ const TechnicalPage = () => (
     </table>
 
     <h4 className={styles.nomarginb}>Poster Session PS.W1: Multimedia Processing and Analysis I</h4>
-    <p className={styles.nomarginb}>Session Chair: TBA</p>
+    <p className={styles.nomarginb}>Session Chair: Eduardo Peixoto (Universidade de Brasília)</p>
     <p>Time: 1:30pm – 2:30pm</p>
 
     <table>
@@ -214,7 +214,7 @@ const TechnicalPage = () => (
     </table>
 
     <h4 className={styles.nomarginb}>Lecture Session LS.W1: Visual Indexing, Analysis, and Representation</h4>
-    <p className={styles.nomarginb}>Session Chair: Parvaneh Saeedi</p>
+    <p className={styles.nomarginb}>Session Chair: Parvaneh Saeedi (Simon Fraser University)</p>
     <p>Time: 2:50pm – 4:20pm</p>
 
     <table>
@@ -252,7 +252,7 @@ const TechnicalPage = () => (
     </table>
 
     <h4 className={styles.nomarginb}>Lecture Session LS.W2: Multimedia Compression</h4>
-    <p className={styles.nomarginb}>Session Chair: TBA</p>
+    <p className={styles.nomarginb}>Session Chair: Ivan V. Bajić (Simon Fraser University)</p>
     <p>Time: 4:30pm – 6:00pm</p>
 
     <table>
@@ -305,7 +305,7 @@ const TechnicalPage = () => (
     </p>
 
     <h4 className={styles.nomarginb}>Special Session SS.T1: Recent Advances in Image Restoration and Quality Metrics for Restoration Algorithms</h4>
-    <p className={styles.nomarginb}>Session Chairs: Xianming Liu, Shiqi Wang, and Guangtao Zhai</p>
+    <p className={styles.nomarginb}>Session Chairs: Purang Abolmaesumi (University of British Columbia)</p>
     <p>Time: 10:20am – 12:10pm</p>
 
 
@@ -349,7 +349,7 @@ const TechnicalPage = () => (
     </table>
 
     <h4 className={styles.nomarginb}>Poster Session PS.T1: Multimedia Processing and Analysis II</h4>
-    <p className={styles.nomarginb}>Session Chair: TBA</p>
+    <p className={styles.nomarginb}>Session Chair: George Tzanetakis (University of Victoria)</p>
     <p>Time: 1:30pm – 2:30pm</p>
 
     <table>
@@ -407,7 +407,7 @@ const TechnicalPage = () => (
     </table>
 
     <h4 className={styles.nomarginb}>Lecture Session LS.T1: Multimedia Processing, Forensics, and Analysis</h4>
-    <p className={styles.nomarginb}>Session Chair: TBA</p>
+    <p className={styles.nomarginb}>Session Chair: Z. Jane Wang (University of British Columbia)</p>
     <p>Time: 2:50pm – 4:20pm</p>
 
     <table>
@@ -445,7 +445,7 @@ const TechnicalPage = () => (
     </table>
 
     <h4 className={styles.nomarginb}>Lecture Session LS.T2: Multimedia Quality, Human Factors, and HCI</h4>
-    <p className={styles.nomarginb}>Session Chair: TBA</p>
+    <p className={styles.nomarginb}>Session Chair: Giulia Boato (University of Trento)</p>
     <p>Time: 4:30pm – 6:00pm</p>
 
     <table>
@@ -498,7 +498,7 @@ const TechnicalPage = () => (
     </p>
 
     <h4 className={styles.nomarginb}>Special Session SS.F1: Multimodal Machine Learning: Advances and Applications</h4>
-    <p className={styles.nomarginb}>Session Chairs: Huisheng Wang and Qifei Wang</p>
+    <p className={styles.nomarginb}>Session Chairs: Qifei Wang (Google)</p>
     <p>Time: 10:20am – 12:10pm</p>
 
     <table>
@@ -536,7 +536,7 @@ const TechnicalPage = () => (
     </table>
 
     <h4 className={styles.nomarginb}>Poster/Demo Session PS.F1: Multimedia Systems, Tools, and Applications</h4>
-    <p className={styles.nomarginb}>Session Chair: TBA</p>
+    <p className={styles.nomarginb}>Session Chair: Yongjun Wu (Amazon)</p>
     <p>Time: 1:30pm – 2:30pm</p>
 
     <table>
@@ -604,7 +604,7 @@ const TechnicalPage = () => (
     </table>
 
     <h4 className={styles.nomarginb}>Lecture Session LS.F1: Deep Learning for Multimedia Processing</h4>
-    <p className={styles.nomarginb}>Session Chair: TBA</p>
+    <p className={styles.nomarginb}>Session Chair: Cha Zhang (Microsoft Research)</p>
     <p>Time: 2:50pm – 4:20pm</p>
 
     <table>
