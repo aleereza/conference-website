@@ -204,3 +204,13 @@ td {
 .redtext{
   color: red;
 }
+
+/*---------Awards--------*/
+.awardpaper{
+  line-height: 1;
+  margin-bottom: 0.8125rem;
+}
+.awardpaper p{
+  font-weight: bold;
+  margin: 0
+}
